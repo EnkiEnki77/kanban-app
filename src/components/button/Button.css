@@ -1,0 +1,42 @@
+.btn{
+    font-size: .75rem;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 23px;
+    padding: .5rem 6.75rem;
+    border-radius: 40px;
+    border: 0;
+}
+
+.primary{
+    color: var(--white);
+    background-color: var(--purple);
+}
+
+.primary:hover{
+    color: var(--white);
+    background-color: var(--purple-hover);
+}
+
+.primary-lg{
+    padding: .75rem 6.75rem;
+    /* font-size: .9375rem; */
+}
+
+.secondary{
+    color: var(--purple);
+    background-color: rgba(99,95,199, 0.1)
+}
+
+.secondary:hover{
+    background-color: rgba(99,95,199, 0.25)
+}
+
+.destructive{
+    color: white;
+    background-color: var(--red);
+}
+
+.destructive:hover{
+    background-color: var(--red-hover);
+}

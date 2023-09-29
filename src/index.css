@@ -52,6 +52,18 @@ h4{
   line-height: 23px;
 }
 
+image{
+  width: 100%;
+  display: block;
+}
 
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
 
 
