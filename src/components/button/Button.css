@@ -3,8 +3,10 @@
     font-weight: 700;
     font-family: 'Plus Jakarta Sans', sans-serif;
     line-height: 23px;
-    padding: .5rem 6.75rem;
+    padding: .75em 0;
     border-radius: 40px;
+    width: 100%;
+    max-width: 255px;
     border: 0;
 }
 
@@ -19,8 +21,8 @@
 }
 
 .primary-lg{
-    padding: .75rem 6.75rem;
-    /* font-size: .9375rem; */
+    padding: .8em 0;
+    font-size: .9375rem;
 }
 
 .secondary{

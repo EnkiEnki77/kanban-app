@@ -1,6 +1,8 @@
 
 import './App.css';
 import Button from './components/button/Button';
+import SubtaskCheckbox from './components/subtask-checkbox/SubtaskCheckbox';
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Button btnModifier='primary primary-lg'/>
       <Button btnModifier='secondary'/>
       <Button btnModifier='destructive'/>
+      <SubtaskCheckbox/>
     </div>
   );
 }
