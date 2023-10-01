@@ -2,16 +2,16 @@
 import './App.css';
 import Button from './components/button/Button';
 import SubtaskCheckbox from './components/subtask-checkbox/SubtaskCheckbox';
+import TextField from './components/text-field/TextField';
 
 
 function App() {
   return (
     <div className="App">
-      <Button btnModifier='primary'/>
-      <Button btnModifier='primary primary-lg'/>
-      <Button btnModifier='secondary'/>
-      <Button btnModifier='destructive'/>
-      <SubtaskCheckbox/>
+      {/* <Header/> */}
+      {/* <Board/> */}
+      {/* <Sidebar/> */}
+      {/* <SidebarToggle/> */}
     </div>
   );
 }
