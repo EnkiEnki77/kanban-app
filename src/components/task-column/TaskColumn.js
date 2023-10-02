@@ -1,5 +1,6 @@
 import React from 'react'
 import './TaskColumn.css'
+import Task from '../task/Task'
 
 const TaskColumn = ({dotColor, title, columnCount}) => {
   return (
@@ -8,7 +9,7 @@ const TaskColumn = ({dotColor, title, columnCount}) => {
             <div className='column-title-dot' style={{color: dotColor}}></div>
             <h4 className='column-title-text'>{title} {columnCount}</h4>
         </div>
-        {/* <Task/> */}
+        <Task/>
     </section>
   )
 }

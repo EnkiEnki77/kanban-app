@@ -3,6 +3,7 @@ import './Board.css'
 import Button from '../button/Button'
 import Sidebar from '../sidebar/Sidebar'
 import show from '../../assets/icon-show-sidebar.svg'
+import TaskColumn from '../task-column/TaskColumn'
 
 const Board = () => {
   return (
@@ -15,7 +16,7 @@ const Board = () => {
         <div className='show-sidebar'>
             <img className='show-sidebar-icon' src={show} alt='show sidebar icon'/>
         </div>
-        {/* <TaskColumn/> */}
+        <TaskColumn/>
         {/* <NewColumnBtn/> */}
     </div>
   )
