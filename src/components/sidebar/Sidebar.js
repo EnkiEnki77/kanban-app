@@ -10,6 +10,8 @@ const Sidebar = (boardCount) => {
         <BoardSelector>Marketing Plan</BoardSelector>
         <BoardSelector>Roadmap</BoardSelector>
         <BoardSelector>+ Create New Board</BoardSelector>
+        {/* <ThemeSwitch/> */}
+        {/* <SidebarToggle/> */}
     </aside>
   )
 }
