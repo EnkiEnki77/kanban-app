@@ -1,6 +1,7 @@
 
 import './App.css';
 import Button from './components/button/Button';
+import Header from './components/header/Header';
 import SubtaskCheckbox from './components/subtask-checkbox/SubtaskCheckbox';
 import TextField from './components/text-field/TextField';
 
@@ -8,7 +9,7 @@ import TextField from './components/text-field/TextField';
 function App() {
   return (
     <div className="App">
-      {/* <Header/> */}
+      <Header/>
       {/* <Board/> */}
       {/* <Sidebar/> */}
       {/* <SidebarToggle/> */}
