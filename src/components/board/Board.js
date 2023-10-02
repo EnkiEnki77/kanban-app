@@ -1,6 +1,8 @@
 import React from 'react'
 import './Board.css'
 import Button from '../button/Button'
+import Sidebar from '../sidebar/Sidebar'
+import show from '../../assets/icon-show-sidebar.svg'
 
 const Board = () => {
   return (
@@ -9,8 +11,12 @@ const Board = () => {
         <Button buttonModifier=''>
             + Add New Column
         </Button>
-        {/* <Sidebar/> */}
-        {/* <SidebarToggle/> */}
+        <Sidebar/>
+        <div className='show-sidebar'>
+            <img className='show-sidebar-icon' src={show} alt='show sidebar icon'/>
+        </div>
+        {/* <TaskColumn/> */}
+        {/* <NewColumnBtn/> */}
     </div>
   )
 }

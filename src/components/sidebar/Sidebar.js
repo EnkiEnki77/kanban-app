@@ -2,6 +2,7 @@ import React from 'react'
 import './Sidebar.css'
 import BoardSelector from '../board-selector/BoardSelector'
 import ThemeSwitch from '../theme-switch/ThemeSwitch'
+import SidebarToggle from '../sidebar-toggle/SidebarToggle'
 
 const Sidebar = (boardCount) => {
   return (
@@ -12,7 +13,7 @@ const Sidebar = (boardCount) => {
         <BoardSelector>Roadmap</BoardSelector>
         <BoardSelector>+ Create New Board</BoardSelector>
         <ThemeSwitch/>
-        {/* <SidebarToggle/> */}
+        <SidebarToggle/>
     </aside>
   )
 }
