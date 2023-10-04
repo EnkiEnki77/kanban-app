@@ -6,6 +6,7 @@ const Task = ({taskTitle, taskBody}) => {
     <div className='task'>
         <h3 className='task-title'>{taskTitle}</h3>
         <p className='task-body'>{taskBody}</p>
+        {/* <TaskDetails/> */}
     </div>
   )
 }
